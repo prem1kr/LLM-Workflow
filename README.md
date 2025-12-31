@@ -160,12 +160,3 @@ npm start
 2. Update articles using Phase 2 script.
 3. Manage articles (create, update, delete) via frontend UI.
 4. All article updates store references to original/competitor content for transparency.
-
----
-
-## ⚡ Notes
-
-* Ensure MongoDB is running and `.env` variables are correct.
-* Use Node.js v18+.
-* React frontend communicates with backend on `http://localhost:5000/api/articles`.
-* Phase 2 requires a valid OpenAI API key for GPT-based rewriting.
