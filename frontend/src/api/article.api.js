@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api/articles";
+const API_URL = "https://llm-workflow-backend.onrender.com/api/articles";
 
 export const ArticleAPI = {
   getAll: () => axios.get(API_URL),
